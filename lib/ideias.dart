@@ -1,16 +1,18 @@
 import 'package:flutter/material.dart';
 import 'components/layout.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class IdeiasPage extends StatelessWidget {
+
+  const IdeiasPage({super.key});
 
   @override
   Widget build(BuildContext context) {
+    
     return Layout(
-      titulo: 'Página Inicial',
+      titulo: 'Ideias',
       child: const Center(
         child: Text(
-          'Conteúdo da Página Inicial',
+          'Ideias',
           style: TextStyle(
             color: Colors.white,
             fontSize: 20,
