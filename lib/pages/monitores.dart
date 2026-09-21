@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'components/layout.dart';
+import '../components/layout.dart';
 
-class KitsPage extends StatelessWidget {
+class MonitoresPage extends StatelessWidget {
 
-  const KitsPage({super.key});
+  const MonitoresPage({super.key});
 
   @override
   Widget build(BuildContext context) {
 
     return Layout(
-      titulo: 'Kits',
+      titulo: 'Códigos',
       child: const Center(
         child: Text(
-          'Kits',
+          'Códigos',
           style: TextStyle(
             color: Colors.white,
             fontSize: 20,

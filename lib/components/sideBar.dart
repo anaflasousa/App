@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import '../home.dart';
-import '../oficinas.dart';
-import '../projetos.dart';
-import '../documentos.dart';
-import '../codigos.dart';
-import '../kits.dart';
-import '../ideias.dart';
-import '../monitores.dart';
+import '../pages/home.dart';
+import '../pages/oficinas.dart';
+import '../pages/projetos.dart';
+import '../pages/documentos.dart';
+import '../pages/codigos.dart';
+import '../pages/kits.dart';
+import '../pages/ideias.dart';
+import '../pages/monitores.dart';
 
 class Sidebar extends StatelessWidget {
   const Sidebar({super.key});

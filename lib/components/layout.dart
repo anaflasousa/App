@@ -40,11 +40,13 @@ class _LayoutState extends State<Layout> {
             const Sidebar(),
 
           Expanded(
-            child: Container(
-              color: const Color(0xFF0C0C0E),
-              child: widget.child,
-            ),
-          ),
+  child: Container(
+    width: double.infinity,
+    height: double.infinity,
+    color: const Color(0xFF0C0C0E),
+    child: widget.child,
+  ),
+),
 
         ],
       ),
