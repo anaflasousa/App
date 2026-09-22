@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../components/layout.dart';
-import '../components/card.dart';
+import '../components/cardHome.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -60,13 +60,6 @@ class HomePage extends StatelessWidget {
                   icone: Icons.lightbulb_outline,
                 ),
 
-                const SizedBox(width: 16),
-
-                Cards(
-                  titulo: 'Eventos',
-                  quantidade: '5',
-                  icone: Icons.event_outlined,
-                ),
               ],
             ),
 
@@ -115,7 +108,7 @@ class HomePage extends StatelessWidget {
                       SizedBox(height: 5),
 
                       Text(
-                        'Oficina de Introdução à Robótica',
+                        'Oficina de Cubesats',
                         style: TextStyle(color: Colors.grey, fontSize: 13),
                       ),
                     ],
@@ -126,7 +119,7 @@ class HomePage extends StatelessWidget {
             const SizedBox(height: 35),
 
             const Text(
-              'Próximos eventos',
+              'Próximas viagens',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 20,
@@ -157,7 +150,7 @@ class HomePage extends StatelessWidget {
                         const SizedBox(height: 15),
 
                         const Text(
-                          'Feira de Tecnologia',
+                          'Space week Nordeste',
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 16,
@@ -183,52 +176,6 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
 
-                const SizedBox(width: 16),
-
-                Expanded(
-                  child: Container(
-                    padding: const EdgeInsets.all(18),
-                    decoration: BoxDecoration(
-                      color: const Color(0xFF17171A),
-                      borderRadius: BorderRadius.circular(12),
-                    ),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Icon(
-                          Icons.school_outlined,
-                          color: Colors.white,
-                          size: 28,
-                        ),
-
-                        const SizedBox(height: 15),
-
-                        const Text(
-                          'Workshop de Programação',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 16,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-
-                        const SizedBox(height: 8),
-
-                        const Text(
-                          '30 de setembro de 2026',
-                          style: TextStyle(color: Colors.grey, fontSize: 13),
-                        ),
-
-                        const SizedBox(height: 4),
-
-                        const Text(
-                          'CVT-E • 09:00',
-                          style: TextStyle(color: Colors.grey, fontSize: 13),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
               ],
             ),
             const SizedBox(height: 35),

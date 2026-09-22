@@ -15,22 +15,22 @@ class _OficinasPageState extends State<OficinasPage> {
 
   final List<Map<String, dynamic>> oficinas = [
     {
-      'titulo': 'Introdução à Astronomia',
+      'titulo': 'Expansão do Universo',
       'categoria': 'Astronômico',
       'descricao':
           'Conheça conceitos básicos sobre astronomia, planetas, estrelas e outros corpos celestes.',
-      'duracao': '2 horas',
-      'participantes': '15 pessoas',
+      'duracao': '30 minutos',
+      'participantes': 'A definir',
       'responsavel': 'A definir',
       'icone': Icons.public,
     },
     {
-      'titulo': 'Exploração Espacial',
+      'titulo': 'introdução à Pico Satélites',
       'categoria': 'Espacial',
       'descricao':
-          'Aprenda sobre exploração espacial, missões, foguetes e tecnologias utilizadas no espaço.',
-      'duracao': '2 horas',
-      'participantes': '15 pessoas',
+          'Aprenda sobre exploração espacial e Pico Satélites.',
+      'duracao': '1 hora',
+      'participantes': 'A definir',
       'responsavel': 'A definir',
       'icone': Icons.rocket_launch,
     },
